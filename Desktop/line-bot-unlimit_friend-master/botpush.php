@@ -4,11 +4,12 @@
 
 require "vendor/autoload.php";
 
-$access_token = '*Channel_access_token*';
+$access_token = 'sxHCl4N3RgD3iFO1YU2MQJ9UrT0jnaSWEcc/vXLXbR8qBvBkjemWVoYxN0raiVEpBq5uAHA+boVnpEvEHVuJjlKvk1oJEpfXMe66Z8fiZPpDIOQSqB9TXVNK8yWZL9/DXKGzc6bHCN5JZtm07j/bCwdB04t89/1O/w1cDnyilFU=
+';
 
-$channelSecret = '*Channel_Secret*';
+$channelSecret = '1f26f9201d33655f65da19926e613e25';
 // ID ที่ต้องการส่งไปหา
-$pushID = '*ReceiverID*';
+$pushID = 'U0bfcb10cf49ccbb73074507742bfdfe2';
 
 $httpClient = new \LINE\LINEBot\HTTPClient\CurlHTTPClient($access_token);
 $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => $channelSecret]);

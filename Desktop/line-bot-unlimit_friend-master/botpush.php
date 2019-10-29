@@ -9,7 +9,7 @@ $access_token = 'sxHCl4N3RgD3iFO1YU2MQJ9UrT0jnaSWEcc/vXLXbR8qBvBkjemWVoYxN0raiVE
 
 $channelSecret = '1f26f9201d33655f65da19926e613e25';
 // ID ที่ต้องการส่งไปหา
-$pushID = 'U0bfcb10cf49ccbb73074507742bfdfe2';
+$pushID = 'nite_diy';
 
 $httpClient = new \LINE\LINEBot\HTTPClient\CurlHTTPClient($access_token);
 $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => $channelSecret]);
